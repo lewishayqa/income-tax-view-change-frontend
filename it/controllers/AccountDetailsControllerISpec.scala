@@ -17,12 +17,16 @@
 package controllers
 
 import assets.BaseIntegrationTestConstants.{testMtditid, testPropertyIncomeId, testSelfEmploymentId}
+import assets.BusinessDetailsIntegrationTestConstants.b1TradingName
 import assets.IncomeSourceIntegrationTestConstants._
+import assets.PropertyDetailsIntegrationTestConstants._
+import assets.messages.AccountDetailsMessages._
 import assets.ReportDeadlinesIntegrationTestConstants.multipleReportDeadlinesDataSuccessModel
 import config.FrontendAppConfig
 import helpers.servicemocks.IncomeTaxViewChangeStub
 import helpers.{ComponentSpecBase, GenericStubMethods}
 import play.api.http.Status.{OK, SEE_OTHER}
+import utils.ImplicitDateFormatter._
 
 class AccountDetailsControllerISpec extends ComponentSpecBase with GenericStubMethods {
 
