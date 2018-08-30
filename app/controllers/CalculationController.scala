@@ -28,7 +28,6 @@ import enums.{Crystallised, Estimate}
 import models.calculation.{CalcDisplayError, CalcDisplayModel, CalcDisplayNoDataFound}
 import models.financialTransactions.{FinancialTransactionsErrorModel, FinancialTransactionsModel}
 import models.incomeSourceDetails.IncomeSourceDetailsModel
-import models.incomeSourcesWithDeadlines.IncomeSourcesWithDeadlinesModel
 import play.api.Logger
 import play.api.i18n.MessagesApi
 import play.api.mvc.{Action, ActionBuilder, AnyContent, Result}
